@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "ES2015",
+        "target": "ES5",
+        "strict": true,
+
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+
+        "sourceMap": true,
+        "lib": ["ESNext"]
+    },
+    "include": [
+        "src/**/*.ts", "src/**/*.tsx",
+    ]
+}

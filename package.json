@@ -1,0 +1,17 @@
+{
+  "name": "pizza-king",
+  "version": "1.0.0",
+  "main": "out/main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "watch": "rollup -c rollup.config.js --watch",
+    "release": "yarn build && clasp push"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.17",
+    "rollup": "^2.33.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.0.5"
+  }
+}
